@@ -1,3 +1,5 @@
+name: Build Android APK
+
 on:
   push:
     branches: [ main, master ]
@@ -58,4 +60,3 @@ jobs:
         path: |
           ~/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/*/*/_gradle.log
           ~/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/*.log
-
