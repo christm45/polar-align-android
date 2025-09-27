@@ -6,7 +6,6 @@ from kivy.uix.label import Label
 from kivy.clock import Clock
 from kivy.graphics.texture import Texture
 from kivy.logger import Logger
-from kivy.core.camera import Camera
 
 import cv2
 import numpy as np
