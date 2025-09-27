@@ -1,3 +1,4 @@
+[app]
 title = Polar Align Assistant
 package.name = polaralign
 package.domain = org.astronomy
@@ -24,5 +25,4 @@ android.arch = arm64-v8a
 
 [buildozer]
 log_level = 2
-
 warn_on_root = 1
